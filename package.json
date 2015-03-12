@@ -1,6 +1,6 @@
 {
   "name": "ks-buttons",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Buttons library. Consists of a couple of mixins and variables which may come in handly",
   "main": "templates/buttons.html",
   "scripts": {
