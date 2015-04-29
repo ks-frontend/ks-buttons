@@ -1,1 +1,36 @@
-@import "../../../ks-core/lib/scss/variables";
+$font-size-default: 15px !default;
+
+
+// Default colors
+$light-color: #f5f5f5;
+$dark-color: #535353;
+$primary-color: #2a85ba;
+$success-color: #48967b;
+$danger-color: #bd4141;
+$warning-color: #e8ae32;
+
+// button typographie
+$btn-font-weight      : normal !default;
+$border-darken-amt    : 5;
+$btn-font-size-default: $font-size-default;
+
+// button colors
+$btn-default-bg-color : darken($light-color, 1) !default;
+$btn-default-color    : $dark-color !default;
+
+$btn-primary-bg-color : $primary-color !default;
+$btn-primary-color    : $light-color !default;
+
+$btn-success-bg-color : $success-color !default;
+$btn-success-color    : $light-color !default;
+
+$btn-danger-bg-color  : $danger-color !default;
+$btn-danger-color     : $light-color !default;
+
+$btn-warning-bg-color : $warning-color !default;
+$btn-warning-color    : $light-color !default;
+
+// button size
+$padding-vertical     : 7px !default;
+$padding-horizontal   : 14px !default;
+$border-radius        : 5px !default;
